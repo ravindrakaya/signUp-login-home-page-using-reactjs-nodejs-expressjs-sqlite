@@ -3,7 +3,9 @@ lockfileVersion: 5.3
 specifiers:
   bcrypt: ^5.1.1
   cors: ^2.8.5
+  ethereal: ^3.5.5
   express: ^4.18.2
+  nodemailer: ^6.9.7
   nodemon: ^3.0.2
   sqlite: ^5.1.1
   sqlite3: ^5.1.6
@@ -11,7 +13,9 @@ specifiers:
 dependencies:
   bcrypt: 5.1.1
   cors: 2.8.5
+  ethereal: 3.5.5
   express: 4.18.2
+  nodemailer: 6.9.7
   nodemon: 3.0.2
   sqlite: 5.1.1
   sqlite3: 5.1.6
@@ -398,6 +402,12 @@ packages:
   /etag/1.8.1:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /ethereal/3.5.5:
+    resolution: {integrity: sha512-M/rfgFbpDJvSy2hBOpBC50Xc+S4iBNrs2hQ4P/kexJyH2kXJWvosgpxiVK3kXVrT17GzBhPW5O/mIXa28vTMEA==}
+    peerDependencies:
+      three: '>=0.122.0'
     dev: false
 
   /express/4.18.2:
@@ -935,6 +945,11 @@ packages:
       - supports-color
     dev: false
     optional: true
+
+  /nodemailer/6.9.7:
+    resolution: {integrity: sha512-rUtR77ksqex/eZRLmQ21LKVH5nAAsVicAtAYudK7JgwenEDZ0UIQ1adUGqErz7sMkWYxWTTU1aeP2Jga6WQyJw==}
+    engines: {node: '>=6.0.0'}
+    dev: false
 
   /nodemon/3.0.2:
     resolution: {integrity: sha512-9qIN2LNTrEzpOPBaWHTm4Asy1LxXLSickZStAQ4IZe7zsoIpD/A7LWxhZV3t4Zu352uBcqVnRsDXSMR2Sc3lTA==}

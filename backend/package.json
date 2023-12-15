@@ -15,7 +15,9 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
+    "ethereal": "^3.5.5",
     "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
     "nodemon": "^3.0.2",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.6"
